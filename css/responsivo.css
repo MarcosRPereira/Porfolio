@@ -15,7 +15,7 @@ section.tela-relogio{
   max-width: 300px;
 }
   .tela-relogio{
-    width: 285px;
+    width: 295px;
     margin-left: 0px;
     margin-right: 0;
   }
@@ -28,14 +28,18 @@ section.tela-relogio{
   }
   .informacoes{
     display: block;
-    margin: auto;
+    margin: 0;
     max-width: 300px;
   }
 
-  .info{
-    max-width: 400px;
+  .infos{
+    max-width: 300px;
+    margin: 0;
   }
 
+  .informacoes div.foto{
+    margin: 0;
+  }
   .foto img{
     max-width:150px;
     max-height: 150px;
@@ -43,13 +47,20 @@ section.tela-relogio{
     margin: 5px 60px;
   }
   .projetos{
+    
     max-width: 300px;
-    margin: auto;
+    margin: 0;
     
  }
 
+ .projetos::before{
+   height: 2px;
+   padding-top: 1px;
+   
+ }
+
  .projetos section{
-   margin: 5px 2px;
+  margin: 5px 15px;
    width: 250px;
    height: 150px;
  }
@@ -65,10 +76,14 @@ section.tela-relogio{
    text-align: center;
  }
   footer{
-    width: 300px;
+    width: 280px;
     margin-top: 0;
     
     margin: 0 auto;
   }
 }
 
+.modal:hover{
+  transform: scale(1.1);
+  
+}

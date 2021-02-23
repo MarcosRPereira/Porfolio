@@ -242,7 +242,7 @@ a.clicavel:hover{
 .projetos::before{
   content: "";
   display: block;
- padding-top: 5px;
+  padding-top: 5px;
   height:3px;
   background: rgba(255, 226, 5, 0.94);
 }
