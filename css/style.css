@@ -72,6 +72,7 @@ a.clicavel:hover{
 }
 
 
+
 .sombra{
   width: 95%;
   box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.377);
@@ -183,7 +184,7 @@ a.clicavel:hover{
   margin: 5px;
   margin-left: 0;
   max-width: 600px;
-  background:turquoise;
+  background:paleturquoise;
   border: 4px solid tomato;
 }
 
@@ -211,13 +212,13 @@ a.clicavel:hover{
 
 /* Projetos */
 .claro{
-  background: turquoise;
- margin: 5px;
-  text-align: center;
+  background: paleturquoise;
+ 
+  
 }
 
 .escuro{
-  background:midnightblue;
+ background: teal;
 }
 .projetos{
   position:relative;
@@ -238,13 +239,15 @@ a.clicavel:hover{
 
 
 
-.projetos section::after{
+.projetos::before{
   content: "";
   display: block;
-  
+ padding-top: 5px;
   height:3px;
   background: rgba(255, 226, 5, 0.94);
 }
+
+
 
 .circulo{
   border-radius: 50%;
@@ -358,3 +361,5 @@ footer{
   box-shadow: 1px 1px 10px 3px rgb(20, 26, 19);
   
 }
+
+
